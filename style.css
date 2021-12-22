@@ -1,3 +1,4 @@
+@use "sass:math";
 body {
   font: 100% "Space Mono", monospace;
   color: #38f338;
@@ -87,10 +88,7 @@ h6 {
   margin-bottom: 0px;
 }
 
-.message,
-.success,
-.error,
-.warning {
+.message, .success, .error, .warning {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
